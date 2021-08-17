@@ -29,7 +29,7 @@ sub stat()
 	my $sum = 0;
 	my $i = 0;
 	my @stat = ();
-	my $l = 100;
+	my $l = 0;
 	while(my $line = <BED>)
 	{
 		chomp $line;
